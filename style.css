@@ -1,0 +1,135 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+
+}
+ul li span {
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#main-header {
+    width: 1000px;
+    /* background: #ccc; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+#main-header .gnb {
+    padding-top: 25px;
+}
+
+#contents {
+    width: 1000px;
+    
+    /* background: #666; */
+    margin: 0 auto;
+}
+
+#contents video {
+    margin-left: 280px;
+}
+#main-footer {
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    /* background: #ccc; */
+    margin-top: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+/* --------- */
+
+#contents h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#about #contents > article {
+    width: 100%;
+    overflow: hidden;
+}
+#about #contents > article > img {
+    float: left;
+    width: 500px;
+}
+#about #contents > article > .text {
+    float: right;
+    width: 455px;
+    line-height: 30px;
+}
+#about #contents article img {
+    /* box-shadow: 4px 4px 8px black; */
+}
+
+/* -------- */
+#activity #contents .info-ui > img {
+    display: block;
+}
+#contents {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+
+#activity #contents .info-ui {
+    background-color: #f4f4f4;
+    width: 320px;
+    height: 467px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    float: left;
+    margin-right: 13px;
+}
+#activity #contents .info-ui .info p {
+    margin-bottom: 5px;
+}
+#activity #contents .info-ui .info .tag {
+    padding-bottom: 20px;
+    color: #666;
+    font-weight: 400;
+}
+#activity #contents .info-ui .info {
+    padding: 15px;
+    display: inline-block;
+}
+#activity #contents .info-ui .info .title {
+    font-size: 20px;
+    font-weight: 500;
+}
+#activity #contents .info-ui .info .date {
+    font-size: 15px;
+    font-weight: 400;
+}
+#activity #main-footer {
+    margin-top: 588px;
+    clear: both;
+}
+
+#blog #main-footer {
+    margin-top: 588px;
+    clear: both;
+}
